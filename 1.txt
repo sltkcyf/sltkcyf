@@ -1,0 +1,10 @@
+读图
+转灰度   
+func1: 不转灰度，直接将raw当成gray，用此计算角点会不准
+func2: 取Gr通道值作为gray, 放大尺寸
+func3: 使用opencv内置的函数转换，注意firstpixel
+func4: 参考https://blog.csdn.net/tywwwww/article/details/127852026，像素值参与计算时建议使用；raw图插值算法
+滤波
+二值化
+腐蚀
+找轮廓
